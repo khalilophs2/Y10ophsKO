@@ -1,0 +1,50 @@
+for singleletter in "PARIS":
+  print(singleletter)
+
+
+
+
+
+name= str(input("input your name>>>"))
+for repeatVariable in range(7):
+  print(name)
+  
+  
+  
+  name= str(input("input your name>>>"))
+for repeatVariable in range(7):
+  print(name)
+
+
+# FYI Range now has START and STOP values
+
+for holdingNumbersFromRange in range(5, 10):
+  print("This for loop will display", holdingNumbersFromRange)
+
+
+
+
+# range(START, STOP, STEP)
+
+for holdingNumbersFromRange in range(5, 10, 2):
+  print("This for loop will display", holdingNumbersFromRange)
+  
+  
+  
+  num = int(input("input a number between 1 and 12>>>"))
+for num in range (0, 200, num):
+  print (num)
+  
+  
+  
+  num = int(input("input a number below 50>>>"))
+
+for num in range (50,num,-1):
+  print (num)
+
+  
+  
+  
+  
+  
+  
