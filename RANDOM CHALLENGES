@@ -1,0 +1,19 @@
+import random
+integer= random.randint(1, 1000)
+print (integer)
+
+
+
+import random
+color = ["turquoise", "blue", "pink", "black", "yellow",]
+randcolor = random.choice(color)
+print(randcolor)
+
+
+
+
+import random
+choice = ["heads", "tails",]
+randchoice = random.choice(choice)
+print(randchoice)
+#NEEDS TO BE FINISHED, RANDOM MODULE CHALLENGE 3
