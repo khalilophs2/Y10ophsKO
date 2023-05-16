@@ -1,0 +1,10 @@
+import random
+heads_tails = ["heads", "tails"]
+coin = random.choice(heads_tails)
+guess= input(str("pick heads or tails"))
+if coin == guess:
+    print ("you win")
+else:
+  print ("badluck")
+
+print (coin)
