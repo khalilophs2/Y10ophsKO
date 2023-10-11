@@ -1,0 +1,16 @@
+# Temperature converter program
+
+# -------------------------
+# Subprograms
+# -------------------------
+def c_to_f(centigrade):
+  (centigrade*1.8)+32
+  return(centigrade*1.8)+32
+
+
+# -------------------------
+# Main program
+# -------------------------
+centigrade = int(input("what is the degrees in centigrade"))
+fahrenheit = c_to_f(centigrade)
+print(centigrade, "degrees Centigrade is", fahrenheit, "degrees Fahrenheit.")
