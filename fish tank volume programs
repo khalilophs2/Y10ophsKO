@@ -1,0 +1,25 @@
+# Fish tank volume problem
+
+# -------------------------
+# Subprograms
+# -------------------------
+def volume(length, width, height):
+  (length*width*height)/1000
+  return(length*width*height)/1000
+
+
+def litres_to_gallons(litres):
+  litres / 4.546
+  return litres / 4.546
+
+
+
+# -------------------------
+# Main program
+# -------------------------
+length = int(input("enter length"))
+width = int(input("enter width"))
+height = int(input("enter height "))
+litres = volume(length, width, height)
+gallons = litres / 4.546
+print("A", length, "x", width, "x", height, "cm tank is", litres, "litres and", gallons, "imperial gallons.")
